@@ -28,7 +28,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/emmabyte/emmaBot
+          images: ghcr.io/emmiebyte/emmaBot
           tags: latest
 
       - name: Build and push Docker image
